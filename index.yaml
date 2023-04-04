@@ -3,7 +3,7 @@ entries:
   test-helm-chart:
   - apiVersion: v2
     appVersion: 2.16.3.2-b14
-    created: "2023-04-04T10:17:22.445460692Z"
+    created: "2023-04-04T10:24:27.491446683Z"
     description: A Helm chart for Kubernetes
     digest: 9057ab625b85d117208126a9b264cb17b9a55070fcc0167dbb1d1538f2d7c790
     name: test-helm-chart
@@ -13,7 +13,7 @@ entries:
     version: 2.16.3+2-b14
   - apiVersion: v2
     appVersion: 2.16.3.2-b14
-    created: "2023-04-04T10:17:22.446061736Z"
+    created: "2023-04-04T10:24:27.491989668Z"
     description: A Helm chart for Kubernetes
     digest: 5d3d7845289359ebaf031dcafa90a77e3e18e06a5149925c59fc4457735d2539
     name: test-helm-chart
@@ -22,8 +22,18 @@ entries:
     - https://baba230896.github.io/test-helm-versioning/test-helm-chart-2.16.3+2.b14.tgz
     version: 2.16.3+2.b14
   - apiVersion: v2
+    appVersion: 2.16.3.4-b14
+    created: "2023-04-04T10:24:27.492722239Z"
+    description: A Helm chart for Kubernetes
+    digest: 883512e71d1c9f91c554634d8ea85eabf0f3d1977248f112c116b5d0045cf03c
+    name: test-helm-chart
+    type: application
+    urls:
+    - https://baba230896.github.io/test-helm-versioning/test-helm-chart-2.16.3+4-b14.tgz
+    version: 2.16.3+4-b14
+  - apiVersion: v2
     appVersion: 2.16.3.4-b15
-    created: "2023-04-04T10:17:22.446553328Z"
+    created: "2023-04-04T10:24:27.493871624Z"
     description: A Helm chart for Kubernetes
     digest: 2600b4fc27e00373f8b1fdb5c68d4672a32e00bba684a64301663ed34bdb386a
     name: test-helm-chart
@@ -33,7 +43,7 @@ entries:
     version: 2.16.3+4-b15
   - apiVersion: v2
     appVersion: 2.16.3.4-b14
-    created: "2023-04-04T10:17:22.447141508Z"
+    created: "2023-04-04T10:24:27.495533572Z"
     description: A Helm chart for Kubernetes
     digest: eacd623226869c6d5e9e04d125e4c20f056da75639c2dab328e8a39525084b18
     name: test-helm-chart
@@ -43,7 +53,7 @@ entries:
     version: 2.16.3+4.b14
   - apiVersion: v2
     appVersion: 2.16.3.4-b15
-    created: "2023-04-04T10:17:22.447856852Z"
+    created: "2023-04-04T10:24:27.496262173Z"
     description: A Helm chart for Kubernetes
     digest: 0a4c5a31dd47bbb6f5b5feb44b5980afaa2ba3f4a6ccbca6b1bde42ec55d6ac5
     name: test-helm-chart
@@ -53,7 +63,7 @@ entries:
     version: 2.16.3+4.b15
   - apiVersion: v2
     appVersion: 2.16.3.1-b14
-    created: "2023-04-04T10:17:22.448523716Z"
+    created: "2023-04-04T10:24:27.496857469Z"
     description: A Helm chart for Kubernetes
     digest: 1144c687e23b1ed18146abd5700727a4001c76c15c6cfbfb78bccac8112f8d54
     name: test-helm-chart
@@ -61,4 +71,4 @@ entries:
     urls:
     - https://baba230896.github.io/test-helm-versioning/test-helm-chart-2.16.3.tgz
     version: 2.16.3
-generated: "2023-04-04T10:17:22.443501421Z"
+generated: "2023-04-04T10:24:27.490386546Z"
