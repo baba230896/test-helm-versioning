@@ -2,85 +2,15 @@ apiVersion: v1
 entries:
   test-helm-chart:
   - apiVersion: v2
-    appVersion: 2.16.3.2-b14
-    created: "2023-12-06T06:34:12.312706366Z"
+    appVersion: 2.16.3.5-b14
+    created: "2023-12-06T06:54:03.17817516Z"
     description: A Helm chart for Kubernetes
-    digest: 9057ab625b85d117208126a9b264cb17b9a55070fcc0167dbb1d1538f2d7c790
+    digest: da65d40ad358427c2037b68493c13ca8b97a4ee0762709d0383a0b5bf6b38bb6
     name: test-helm-chart
     type: application
     urls:
-    - test-helm-chart-2.16.3+2-b14.tgz
-    version: 2.16.3+2-b14
-  - apiVersion: v2
-    appVersion: 2.16.3.2-b14
-    created: "2023-12-06T06:34:12.313322546Z"
-    description: A Helm chart for Kubernetes
-    digest: 5d3d7845289359ebaf031dcafa90a77e3e18e06a5149925c59fc4457735d2539
-    name: test-helm-chart
-    type: application
-    urls:
-    - test-helm-chart-2.16.3+2.b14.tgz
-    version: 2.16.3+2.b14
-  - apiVersion: v2
-    appVersion: 2.16.3.3-b14
-    created: "2023-12-06T06:34:12.31541655Z"
-    description: A Helm chart for Kubernetes
-    digest: 1136d3b22fe464f001e200634347ae58b59d171fd4ded69b7ba17de135e12e5b
-    name: test-helm-chart
-    type: application
-    urls:
-    - test-helm-chart-2.16.3+3-b14.tgz
-    version: 2.16.3+3-b14
-  - apiVersion: v2
-    appVersion: 2.16.3.4-b14
-    created: "2023-12-06T06:34:12.316660981Z"
-    description: A Helm chart for Kubernetes
-    digest: 883512e71d1c9f91c554634d8ea85eabf0f3d1977248f112c116b5d0045cf03c
-    name: test-helm-chart
-    type: application
-    urls:
-    - test-helm-chart-2.16.3+4-b14.tgz
-    version: 2.16.3+4-b14
-  - apiVersion: v2
-    appVersion: 2.16.3.4-b15
-    created: "2023-12-06T06:34:12.318298574Z"
-    description: A Helm chart for Kubernetes
-    digest: 2600b4fc27e00373f8b1fdb5c68d4672a32e00bba684a64301663ed34bdb386a
-    name: test-helm-chart
-    type: application
-    urls:
-    - test-helm-chart-2.16.3+4-b15.tgz
-    version: 2.16.3+4-b15
-  - apiVersion: v2
-    appVersion: 2.16.3.4-b14
-    created: "2023-12-06T06:34:12.318888871Z"
-    description: A Helm chart for Kubernetes
-    digest: eacd623226869c6d5e9e04d125e4c20f056da75639c2dab328e8a39525084b18
-    name: test-helm-chart
-    type: application
-    urls:
-    - test-helm-chart-2.16.3+4.b14.tgz
-    version: 2.16.3+4.b14
-  - apiVersion: v2
-    appVersion: 2.16.3.4-b15
-    created: "2023-12-06T06:34:12.31986293Z"
-    description: A Helm chart for Kubernetes
-    digest: 0a4c5a31dd47bbb6f5b5feb44b5980afaa2ba3f4a6ccbca6b1bde42ec55d6ac5
-    name: test-helm-chart
-    type: application
-    urls:
-    - test-helm-chart-2.16.3+4.b15.tgz
-    version: 2.16.3+4.b15
-  - apiVersion: v2
-    appVersion: 2.16.3.1-b14
-    created: "2023-12-06T06:34:12.321119598Z"
-    description: A Helm chart for Kubernetes
-    digest: 1144c687e23b1ed18146abd5700727a4001c76c15c6cfbfb78bccac8112f8d54
-    name: test-helm-chart
-    type: application
-    urls:
-    - test-helm-chart-2.16.3.tgz
-    version: 2.16.3
+    - test-helm-chart-2.16.3+5-b14.tgz
+    version: 2.16.3+5-b14
   - apiVersion: v2
     appVersion: 2.16.2.4-b14
     created: "2023-12-06T06:34:12.311495691Z"
@@ -91,24 +21,4 @@ entries:
     urls:
     - test-helm-chart-2.16.2.4.tgz
     version: 2.16.2+4.b14
-  - apiVersion: v2
-    appVersion: 2.16.2.4-b14
-    created: "2023-12-06T06:34:12.312114342Z"
-    description: A Helm chart for Kubernetes
-    digest: 649275cb3b64e15d06a653a161d6949bf625c26a1372a753409c8f23d529c2b4
-    name: test-helm-chart
-    type: application
-    urls:
-    - test-helm-chart-2.16.2.tgz
-    version: 2.16.2
-  - apiVersion: v2
-    appVersion: 2.16.2.4-b14
-    created: "2023-12-06T06:34:12.32054572Z"
-    description: A Helm chart for Kubernetes
-    digest: 24951a33d2e06f0b2fe53c47ef487b36d1137fa9d849baf4334f046070655dca
-    name: test-helm-chart
-    type: application
-    urls:
-    - test-helm-chart-2.16.3.4.tgz
-    version: 2.16.2+4.b14
-generated: "2023-12-06T06:34:12.310617544Z"
+generated: "2023-12-06T06:54:03.177367771Z"
