@@ -1,0 +1,27 @@
+name: "TEST Update YugabyteDB version"
+on:
+  repository_dispatch:
+    types:
+    - update-on-release
+jobs:
+  update-version:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+
+    - name: "Switch to correct branch - argument as floating"
+      run: |
+        branch_name="${{github.event.client_payload.yb_release_train_f}}"
+        echo "origin/${branch_name}"
+
+    - name: "Switch to correct branch - argument as string"
+      run: |
+        branch_name="${{github.event.client_payload.yb_release_train_str}}"
+        echo "origin/${branch_name}"
+
+    - name: "Switch to correct branch - argument as string, trim"
+      run: |
+        branch_name="$(echo "${{github.event.client_payload.yb_release_train_str}}" | tr -d '"')"
+        echo "origin/${branch_name}"
